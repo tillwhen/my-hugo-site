@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Noah's Ark</title><link>https://nosaerc.com/</link><description>Recent content on Noah's Ark</description><generator>Hugo -- 0.150.0</generator><language>ja</language><lastBuildDate>Sun, 21 Sep 2025 12:00:00 +0900</lastBuildDate><atom:link href="https://nosaerc.com/index.xml" rel="self" type="application/rss+xml"/><item><title>院試体験記</title><link>https://nosaerc.com/posts/inshi/</link><pubDate>Sun, 21 Sep 2025 12:00:00 +0900</pubDate><guid>https://nosaerc.com/posts/inshi/</guid><description>&lt;script&gt;
+// MathJax の設定をページに直接記述
+window.MathJax = {
+tex: {
+inlineMath: [['\\(','\\)']],
+displayMath: [['\\[','\\]']]
+}
+};
+&lt;/script&gt;
+&lt;script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"&gt;&lt;/script&gt;
+&lt;h1 id="院試合格体験記"&gt;院試合格体験記&lt;/h1&gt;
+&lt;p&gt;@nosaercによる，東京科学大学 情報理工学院 数理・計算科学系 B日程(内部大の外部系受験・2026年度入学・2025年度受験)についての記録です．&lt;/p&gt;
+&lt;h2 id="試験の概要"&gt;試験の概要&lt;/h2&gt;
+&lt;p&gt;数字は正確な値ではなく概数値です．公式な数値は必ずあなたが受験する年度の募集要項を確認してください．募集要項にはすべてが載っています．&lt;/p&gt;
+&lt;p&gt;数理計算科学系B日程では，8月の中旬ごろに3時間半の数学の試験を受験し，その結果により面接の受験可否が発表されます．そして試験の翌週に口頭試問が行われ，数学100点，英語(TOEICのスコア)20点と面接の出来で合否が決まります．&lt;/p&gt;
+&lt;p&gt;数理・計算科学系修士課程の受け入れ定員は約50名です．A日程では10～15名程度が受験し，そのうちほとんど全員が合格します．つまり，B日程の定員は約40名です．受験番号の数から，概ね筆頭試験の受験者数は80~100名前後であるため，B日程のみの倍率は2倍程度です．
+また，全体の受験者数は100名前後であるため，全体の倍率は2倍前後で推移しています．&lt;/p&gt;
+&lt;h2 id="筆者の概要"&gt;筆者の概要&lt;/h2&gt;
+&lt;p&gt;科学大理学院物理学系．数学や哲学など好きな分野の講義には全力で取り組むが，物理学系の専門科目などは必要な単位が取れればOK．合間を縫って系外科目を19単位取得．&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;期間&lt;/th&gt;
+&lt;th&gt;GPA&lt;/th&gt;
+&lt;th&gt;GPT&lt;/th&gt;
+&lt;th&gt;専門GPA&lt;/th&gt;
+&lt;th&gt;教養GPA&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;通算&lt;/td&gt;
+&lt;td&gt;2.97&lt;/td&gt;
+&lt;td&gt;3.25&lt;/td&gt;
+&lt;td&gt;2.84&lt;/td&gt;
+&lt;td&gt;3.11&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;1年次&lt;/td&gt;
+&lt;td&gt;3.14&lt;/td&gt;
+&lt;td&gt;&amp;mdash;&amp;mdash;-&lt;/td&gt;
+&lt;td&gt;3.90&lt;/td&gt;
+&lt;td&gt;3.10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2年次&lt;/td&gt;
+&lt;td&gt;2.90&lt;/td&gt;
+&lt;td&gt;&amp;mdash;&amp;mdash;-&lt;/td&gt;
+&lt;td&gt;2.86&lt;/td&gt;
+&lt;td&gt;3.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3年次&lt;/td&gt;
+&lt;td&gt;2.68&lt;/td&gt;
+&lt;td&gt;&amp;mdash;&amp;mdash;-&lt;/td&gt;
+&lt;td&gt;2.56&lt;/td&gt;
+&lt;td&gt;4.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4年前期&lt;/td&gt;
+&lt;td&gt;3.28&lt;/td&gt;
+&lt;td&gt;&amp;mdash;&amp;mdash;-&lt;/td&gt;
+&lt;td&gt;3.28&lt;/td&gt;
+&lt;td&gt;&amp;mdash;&amp;mdash;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="勉強方法"&gt;勉強方法&lt;/h2&gt;
+&lt;p&gt;まず，4年前期までに以下の科目を系外履修して勉強し，単位を取りました．&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;代数学概論第一(数学系)
+&lt;ul&gt;
+&lt;li&gt;環論(部分環，体，剰余環，整域，イデアル)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;代数学概論第二(数学系)
+&lt;ul&gt;
+&lt;li&gt;環論(準同型，ED，PID，UFD)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;確率論基礎(数理計算科学系)
+&lt;ul&gt;
+&lt;li&gt;公理的確率論(測度論はスルー)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;幾何学概論第一(数学系)
+&lt;ul&gt;
+&lt;li&gt;\(\mathbb{R}^2,\mathbb{R}^3\)上の曲線論&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;幾何学概論第二(数学系)
+&lt;ul&gt;
+&lt;li&gt;\(\mathbb{R}^3\)上の曲面論など&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;位相空間論第一(数学系)
+&lt;ul&gt;
+&lt;li&gt;集合論&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;位相空間論第二(数学系)
+&lt;ul&gt;
+&lt;li&gt;順序，Zorn，距離空間&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;オートマトンと数理言語論(数理計算科学系)
+&lt;ul&gt;
+&lt;li&gt;DFA，NFA，正規表現，文脈自由文法，PDA，ポンピング補題&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;数理論理学(数理計算科学系)
+&lt;ul&gt;
+&lt;li&gt;一階述語論理(自然演繹)の健全性と完全性，直観主義論理，様相論理，不完全性定理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;加えて，物理学系の講義(物理数学III)と数理計算科学系の講義(代数系)で群論を勉強しましたが，途中からサボりました．&lt;/p&gt;</description></item><item><title>テスト投稿</title><link>https://nosaerc.com/posts/test/</link><pubDate>Thu, 18 Sep 2025 12:00:00 +0900</pubDate><guid>https://nosaerc.com/posts/test/</guid><description>&lt;p&gt;数式テスト：$aaa$&lt;/p&gt;
+&lt;p&gt;[
+\int_0^1 x^ndx = \frac{1}{n+1}\quad(n&amp;gt;-1)
+]&lt;/p&gt;
+&lt;p&gt;\begin{align}
+X &amp;amp;=Y \\
+&amp;amp;=Z
+\end{align}&lt;/p&gt;
+&lt;p&gt;これはダミー記事です。数式テスト：\( a^2 + b^2 = c^2 \)
+&lt;/p&gt;
+&lt;p&gt;YouTube埋め込み
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/MQ1EFpSJ7K8?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;SoundCloud埋め込み
+&lt;iframe width="100%" height="166" scrolling="no" frameborder="no"
+src="https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Ffity-fitt%2Flogica-light-again-nosaerc&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"&gt;
+&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;p&gt;Spotify埋め込み
+&lt;iframe style="border-radius:12px" width="100%" height="152"
+src="https://open.spotify.com/embed/track/6ku3CvD9ehE0TPjNFUSDzk"
+allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"&gt;
+&lt;/iframe&gt;
+&lt;/p&gt;</description></item><item><title>Biography</title><link>https://nosaerc.com/bio/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nosaerc.com/bio/</guid><description>&lt;h2 id="自己紹介bio"&gt;自己紹介Bio&lt;/h2&gt;
+&lt;p&gt;のさーく/nosaerc&lt;/p&gt;
+&lt;p&gt;東京科学大学理学院物理学系に所属．&lt;/p&gt;
+&lt;p&gt;2026年度より，同大数理・計算科学系に進学予定．&lt;/p&gt;
+&lt;p&gt;サークル：traP，Tech-nation Recordsに所属し，音楽制作/DJを行っている．&lt;/p&gt;
+&lt;p&gt;2022年度より音楽活動を開始し，制作ジャンルはTranceとHardstyleが主戦場である．&lt;/p&gt;
+&lt;p&gt;Uplifting TranceやEuphoric Hardstyleなどのメロディックなジャンル，多幸感のあるコード進行・メロディーを得意とする．&lt;/p&gt;
+&lt;p&gt;また，2023年度からDJ活動も開始し，定期的にサークルイベントに出演している．&lt;/p&gt;
+&lt;h2 id="コンタクトcontact--各種sns"&gt;コンタクトContact &amp;amp; 各種SNS&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;mail：fitt.gset[at]gmail.com&lt;/li&gt;
+&lt;li&gt;X(twitter)：@nosaerc_m OR @nosaerc_c&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/@nosaerc"&gt;YouTube&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://soundcloud.com/fity-fitt"&gt;SoundCloud&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/tillwhen/"&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;このサイトはHugo,Git,GitHub,Cloudflareを使用して作成しました．&lt;/p&gt;&lt;/blockquote&gt;</description></item><item><title>Music</title><link>https://nosaerc.com/music/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nosaerc.com/music/</guid><description>&lt;p&gt;今までに制作した楽曲の紹介と視聴リンクです．&lt;/p&gt;
+&lt;p&gt;購入は&lt;a href="https://nosaerc.bandcamp.com/"&gt;Bandcamp&lt;/a&gt;からお願いします．&lt;/p&gt;
+&lt;div class="music-card"&gt;
+&lt;div class="music-body"&gt;
+&lt;h3 class="music-title"&gt;ID&lt;/h3&gt;
+&lt;div class="music-meta"&gt;
+&lt;span&gt;&lt;strong&gt;Album:&lt;/strong&gt; Euphoric Reverie 3&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Genre:&lt;/strong&gt; Euphoric Hardstyle&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Composer:&lt;/strong&gt; nosaerc&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Release:&lt;/strong&gt; 2025&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="music-links"&gt;
+&lt;/div&gt;
+&lt;div class="music-embed"&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="music-card"&gt;
+&lt;div class="music-body"&gt;
+&lt;h3 class="music-title"&gt;ID&lt;/h3&gt;
+&lt;div class="music-meta"&gt;
+&lt;span&gt;&lt;strong&gt;Album:&lt;/strong&gt; Celestial&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Genre:&lt;/strong&gt; Uplifting Trance&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Composer:&lt;/strong&gt; nosaerc&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Release:&lt;/strong&gt; 2025&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="music-links"&gt;
+&lt;/div&gt;
+&lt;div class="music-embed"&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="music-card"&gt;
+&lt;div class="music-body"&gt;
+&lt;h3 class="music-title"&gt;ID&lt;/h3&gt;
+&lt;div class="music-meta"&gt;
+&lt;span&gt;&lt;strong&gt;Album:&lt;/strong&gt; Single&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Genre:&lt;/strong&gt; Uplifting Trance&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Composer:&lt;/strong&gt; nosaerc,Statane&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Release:&lt;/strong&gt; 2025&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="music-links"&gt;
+&lt;/div&gt;
+&lt;div class="music-embed"&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="music-card"&gt;
+&lt;div class="music-body"&gt;
+&lt;h3 class="music-title"&gt;ID&lt;/h3&gt;
+&lt;div class="music-meta"&gt;
+&lt;span&gt;&lt;strong&gt;Album:&lt;/strong&gt; Single&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Genre:&lt;/strong&gt; Rawphoric&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Composer:&lt;/strong&gt; Fumi,nosaerc&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Release:&lt;/strong&gt; 2025&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="music-links"&gt;
+&lt;/div&gt;
+&lt;div class="music-embed"&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="music-card"&gt;
+&lt;div class="music-body"&gt;
+&lt;h3 class="music-title"&gt;ID&lt;/h3&gt;
+&lt;div class="music-meta"&gt;
+&lt;span&gt;&lt;strong&gt;Album:&lt;/strong&gt; traP合作コンピ&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Genre:&lt;/strong&gt; Uplifting Trance&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Composer:&lt;/strong&gt; nosaerc,latadeluxe&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Release:&lt;/strong&gt; 2025&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="music-links"&gt;
+&lt;/div&gt;
+&lt;div class="music-embed"&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="music-card"&gt;
+&lt;div class="music-body"&gt;
+&lt;h3 class="music-title"&gt;logica - Light Again (nosaerc Extended Remix)&lt;/h3&gt;
+&lt;div class="music-meta"&gt;
+&lt;span&gt;&lt;strong&gt;Album:&lt;/strong&gt; traP新歓コンピ2025&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Genre:&lt;/strong&gt; Euphoric Hardstyle&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Composer:&lt;/strong&gt; logica,nosaerc&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Release:&lt;/strong&gt; 2025&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="music-links"&gt;
+&lt;a class="btn" href="https://youtu.be/MQ1EFpSJ7K8" target="_blank" rel="noopener" aria-label="YouTube"&gt;
+&lt;svg viewBox="0 0 24 24" aria-hidden="true"&gt;&lt;path d="M23.5 6.2a3.1 3.1 0 0 0-2.2-2.2C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.3.5A3.1 3.1 0 0 0 .5 6.2C0 8 0 12 0 12s0 4 .5 5.8a3.1 3.1 0 0 0 2.2 2.2c1.8.5 9.3.5 9.3.5s7.5 0 9.3-.5a3.1 3.1 0 0 0 2.2-2.2C24 16 24 12 24 12s0-4-.5-5.8zM9.6 15.5V8.5L15.8 12l-6.2 3.5z"/&gt;&lt;/svg&gt;
+YouTube
+&lt;/a&gt;
+&lt;a class="btn" href="https://soundcloud.com/fity-fitt/logica-light-again-nosaerc" target="_blank" rel="noopener" aria-label="SoundCloud"&gt;
+&lt;svg viewBox="0 0 24 24" aria-hidden="true"&gt;&lt;path d="M17.6 10.2a3.9 3.9 0 0 0-3.7-2.7c-.4 0-.7 0-1 .1A5.8 5.8 0 0 0 7 6.4a6 6 0 0 0-3.3 5.3 3.4 3.4 0 0 0 3.4 3.4H18a3 3 0 1 0-.3-6zM4 11.7c0-1 .3-2 .8-2.8-.7.7-1.1 1.7-1.1 2.8a3 3 0 0 0 3 3H6a2.7 2.7 0 0 1-2-2.9z"/&gt;&lt;/svg&gt;
+SoundCloud
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="music-embed"&gt;
+&lt;iframe class="yt"
+src="https://www.youtube-nocookie.com/embed/MQ1EFpSJ7K8"
+title="YouTube player" loading="lazy"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe class="sc" height="166" scrolling="no" frameborder="0"
+src="https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Ffity-fitt%2Flogica-light-again-nosaerc&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="music-card"&gt;
+&lt;div class="music-body"&gt;
+&lt;h3 class="music-title"&gt;セカイがカフェになっちゃった！(nosaerc Hardcore Bootleg)&lt;/h3&gt;
+&lt;div class="music-meta"&gt;
+&lt;span&gt;&lt;strong&gt;Album:&lt;/strong&gt; Single&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Genre:&lt;/strong&gt; UK Hardcore&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Composer:&lt;/strong&gt; petit rabits with beans,nosaerc&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Release:&lt;/strong&gt; 2025&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="music-links"&gt;
+&lt;a class="btn" href="https://youtu.be/Xk_RquYY4yw?si=BMcnu64Oodqp9onJ" target="_blank" rel="noopener" aria-label="YouTube"&gt;
+&lt;svg viewBox="0 0 24 24" aria-hidden="true"&gt;&lt;path d="M23.5 6.2a3.1 3.1 0 0 0-2.2-2.2C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.3.5A3.1 3.1 0 0 0 .5 6.2C0 8 0 12 0 12s0 4 .5 5.8a3.1 3.1 0 0 0 2.2 2.2c1.8.5 9.3.5 9.3.5s7.5 0 9.3-.5a3.1 3.1 0 0 0 2.2-2.2C24 16 24 12 24 12s0-4-.5-5.8zM9.6 15.5V8.5L15.8 12l-6.2 3.5z"/&gt;&lt;/svg&gt;
+YouTube
+&lt;/a&gt;
+&lt;a class="btn" href="https://soundcloud.com/fity-fitt/nosaerc-uk-hardcore-bootleg" target="_blank" rel="noopener" aria-label="SoundCloud"&gt;
+&lt;svg viewBox="0 0 24 24" aria-hidden="true"&gt;&lt;path d="M17.6 10.2a3.9 3.9 0 0 0-3.7-2.7c-.4 0-.7 0-1 .1A5.8 5.8 0 0 0 7 6.4a6 6 0 0 0-3.3 5.3 3.4 3.4 0 0 0 3.4 3.4H18a3 3 0 1 0-.3-6zM4 11.7c0-1 .3-2 .8-2.8-.7.7-1.1 1.7-1.1 2.8a3 3 0 0 0 3 3H6a2.7 2.7 0 0 1-2-2.9z"/&gt;&lt;/svg&gt;
+SoundCloud
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="music-embed"&gt;
+&lt;iframe class="yt"
+src="https://www.youtube-nocookie.com/embed/Xk_RquYY4yw?si=BMcnu64Oodqp9onJ"
+title="YouTube player" loading="lazy"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe class="sc" height="166" scrolling="no" frameborder="0"
+src="https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Ffity-fitt%2Fnosaerc-uk-hardcore-bootleg&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="music-card"&gt;
+&lt;div class="music-body"&gt;
+&lt;h3 class="music-title"&gt;Tranceparent Sky (Uplifting VIP Remix) (2025 Live Edit)&lt;/h3&gt;
+&lt;div class="music-meta"&gt;
+&lt;span&gt;&lt;strong&gt;Album:&lt;/strong&gt; Single&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Genre:&lt;/strong&gt; Uplifting Trance&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Composer:&lt;/strong&gt; nosaerc&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Release:&lt;/strong&gt; 2025&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="music-links"&gt;
+&lt;a class="btn" href="https://youtu.be/0NfF0kRD8Ww?si=5uSFuEVQgi6xblpt" target="_blank" rel="noopener" aria-label="YouTube"&gt;
+&lt;svg viewBox="0 0 24 24" aria-hidden="true"&gt;&lt;path d="M23.5 6.2a3.1 3.1 0 0 0-2.2-2.2C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.3.5A3.1 3.1 0 0 0 .5 6.2C0 8 0 12 0 12s0 4 .5 5.8a3.1 3.1 0 0 0 2.2 2.2c1.8.5 9.3.5 9.3.5s7.5 0 9.3-.5a3.1 3.1 0 0 0 2.2-2.2C24 16 24 12 24 12s0-4-.5-5.8zM9.6 15.5V8.5L15.8 12l-6.2 3.5z"/&gt;&lt;/svg&gt;
+YouTube
+&lt;/a&gt;
+&lt;a class="btn" href="https://soundcloud.com/fity-fitt/tranceparent-sky-uplifting-vip" target="_blank" rel="noopener" aria-label="SoundCloud"&gt;
+&lt;svg viewBox="0 0 24 24" aria-hidden="true"&gt;&lt;path d="M17.6 10.2a3.9 3.9 0 0 0-3.7-2.7c-.4 0-.7 0-1 .1A5.8 5.8 0 0 0 7 6.4a6 6 0 0 0-3.3 5.3 3.4 3.4 0 0 0 3.4 3.4H18a3 3 0 1 0-.3-6zM4 11.7c0-1 .3-2 .8-2.8-.7.7-1.1 1.7-1.1 2.8a3 3 0 0 0 3 3H6a2.7 2.7 0 0 1-2-2.9z"/&gt;&lt;/svg&gt;
+SoundCloud
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="music-embed"&gt;
+&lt;iframe class="yt"
+src="https://www.youtube-nocookie.com/embed/0NfF0kRD8Ww?si=5uSFuEVQgi6xblpt"
+title="YouTube player" loading="lazy"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe class="sc" height="166" scrolling="no" frameborder="0"
+src="https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Ffity-fitt%2Ftranceparent-sky-uplifting-vip&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="music-card"&gt;
+&lt;div class="music-body"&gt;
+&lt;h3 class="music-title"&gt;Daydreamer&lt;/h3&gt;
+&lt;div class="music-meta"&gt;
+&lt;span&gt;&lt;strong&gt;Album:&lt;/strong&gt; Euphoric Reverie 2&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Genre:&lt;/strong&gt; Rawphoric&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Composer:&lt;/strong&gt; nosaerc, xylo &amp;amp; Yakumo&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Release:&lt;/strong&gt; 2024&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="music-links"&gt;
+&lt;a class="btn" href="https://open.spotify.com/track/6ku3CvD9ehE0TPjNFUSDzk?si=b38c3494232d4a36" target="_blank" rel="noopener" aria-label="Spotify"&gt;
+&lt;svg viewBox="0 0 24 24" aria-hidden="true"&gt;&lt;path d="M12 0a12 12 0 1 0 0 24A12 12 0 0 0 12 0zm5.5 17.5a.9.9 0 0 1-1.2.3 13.7 13.7 0 0 0-7-1.9c-1.6 0-3.2.3-4.7.8a.9.9 0 1 1-.6-1.7 15.5 15.5 0 0 1 5.3-.9c2.7 0 5.3.6 7.6 1.9.5.3.7.9.4 1.5zm1.6-3.3a1 1 0 0 1-1.3.4 16.8 16.8 0 0 0-7.9-2c-1.9 0-3.8.3-5.6 1a1 1 0 0 1-.7-1.9 18.6 18.6 0 0 1 6.3-1.1c3 0 6 .7 8.7 2.2.5.2.7.8.5 1.4zm.1-3.5a1.1 1.1 0 0 1-1.5.5 19.8 19.8 0 0 0-8.7-2c-2.1 0-4.2.3-6.2 1a1.1 1.1 0 0 1-.7-2 21.7 21.7 0 0 1 6.9-1.2c3.4 0 6.9.8 10 2.5.6.2.8.9.5 1.5z"/&gt;&lt;/svg&gt;
+Spotify
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="music-embed"&gt;
+&lt;iframe class="sp"
+src="https://open.spotify.com/embed/track/6ku3CvD9ehE0TPjNFUSDzk?si=b38c3494232d4a36"
+loading="lazy"
+allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="music-card"&gt;
+&lt;div class="music-body"&gt;
+&lt;h3 class="music-title"&gt;Irregular Forces (Kick Edit)&lt;/h3&gt;
+&lt;div class="music-meta"&gt;
+&lt;span&gt;&lt;strong&gt;Album:&lt;/strong&gt; The Nature of Life&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Genre:&lt;/strong&gt; Rawstyle&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Composer:&lt;/strong&gt; nosaerc&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Release:&lt;/strong&gt; 2024&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="music-links"&gt;
+&lt;a class="btn" href="https://soundcloud.com/fity-fitt/irregular-forces-kick-edit-3" target="_blank" rel="noopener" aria-label="SoundCloud"&gt;
+&lt;svg viewBox="0 0 24 24" aria-hidden="true"&gt;&lt;path d="M17.6 10.2a3.9 3.9 0 0 0-3.7-2.7c-.4 0-.7 0-1 .1A5.8 5.8 0 0 0 7 6.4a6 6 0 0 0-3.3 5.3 3.4 3.4 0 0 0 3.4 3.4H18a3 3 0 1 0-.3-6zM4 11.7c0-1 .3-2 .8-2.8-.7.7-1.1 1.7-1.1 2.8a3 3 0 0 0 3 3H6a2.7 2.7 0 0 1-2-2.9z"/&gt;&lt;/svg&gt;
+SoundCloud
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="music-embed"&gt;
+&lt;iframe class="sc" height="166" scrolling="no" frameborder="0"
+src="https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Ffity-fitt%2Firregular-forces-kick-edit-3&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="music-card"&gt;
+&lt;div class="music-body"&gt;
+&lt;h3 class="music-title"&gt;Sunrise (VIP Remix)&lt;/h3&gt;
+&lt;div class="music-meta"&gt;
+&lt;span&gt;&lt;strong&gt;Album:&lt;/strong&gt; The Nature of Life&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Genre:&lt;/strong&gt; Euphoric Hardstyle&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Composer:&lt;/strong&gt; nosaerc&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Release:&lt;/strong&gt; 2024&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="music-links"&gt;
+&lt;a class="btn" href="https://soundcloud.com/fity-fitt/sunrise-vip-remix-4" target="_blank" rel="noopener" aria-label="SoundCloud"&gt;
+&lt;svg viewBox="0 0 24 24" aria-hidden="true"&gt;&lt;path d="M17.6 10.2a3.9 3.9 0 0 0-3.7-2.7c-.4 0-.7 0-1 .1A5.8 5.8 0 0 0 7 6.4a6 6 0 0 0-3.3 5.3 3.4 3.4 0 0 0 3.4 3.4H18a3 3 0 1 0-.3-6zM4 11.7c0-1 .3-2 .8-2.8-.7.7-1.1 1.7-1.1 2.8a3 3 0 0 0 3 3H6a2.7 2.7 0 0 1-2-2.9z"/&gt;&lt;/svg&gt;
+SoundCloud
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="music-embed"&gt;
+&lt;iframe class="sc" height="166" scrolling="no" frameborder="0"
+src="https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Ffity-fitt%2Fsunrise-vip-remix-4&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="music-card"&gt;
+&lt;div class="music-body"&gt;
+&lt;h3 class="music-title"&gt;The Rest of The Dream&lt;/h3&gt;
+&lt;div class="music-meta"&gt;
+&lt;span&gt;&lt;strong&gt;Album:&lt;/strong&gt; The Nature of Life&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Genre:&lt;/strong&gt; Euphoric Hardstyle&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Composer:&lt;/strong&gt; nosaerc&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Release:&lt;/strong&gt; 2024&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="music-links"&gt;
+&lt;a class="btn" href="https://soundcloud.com/fity-fitt/the-rest-of-the-dream-6" target="_blank" rel="noopener" aria-label="SoundCloud"&gt;
+&lt;svg viewBox="0 0 24 24" aria-hidden="true"&gt;&lt;path d="M17.6 10.2a3.9 3.9 0 0 0-3.7-2.7c-.4 0-.7 0-1 .1A5.8 5.8 0 0 0 7 6.4a6 6 0 0 0-3.3 5.3 3.4 3.4 0 0 0 3.4 3.4H18a3 3 0 1 0-.3-6zM4 11.7c0-1 .3-2 .8-2.8-.7.7-1.1 1.7-1.1 2.8a3 3 0 0 0 3 3H6a2.7 2.7 0 0 1-2-2.9z"/&gt;&lt;/svg&gt;
+SoundCloud
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="music-embed"&gt;
+&lt;iframe class="sc" height="166" scrolling="no" frameborder="0"
+src="https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Ffity-fitt%2Fthe-rest-of-the-dream-6&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="music-card"&gt;
+&lt;div class="music-body"&gt;
+&lt;h3 class="music-title"&gt;Dreamline Express&lt;/h3&gt;
+&lt;div class="music-meta"&gt;
+&lt;span&gt;&lt;strong&gt;Album:&lt;/strong&gt; The Nature of Life&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Genre:&lt;/strong&gt; Uplifting Trance&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Composer:&lt;/strong&gt; nosaerc&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Release:&lt;/strong&gt; 2024&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="music-links"&gt;
+&lt;a class="btn" href="https://soundcloud.com/fity-fitt/dreamline-express-1" target="_blank" rel="noopener" aria-label="SoundCloud"&gt;
+&lt;svg viewBox="0 0 24 24" aria-hidden="true"&gt;&lt;path d="M17.6 10.2a3.9 3.9 0 0 0-3.7-2.7c-.4 0-.7 0-1 .1A5.8 5.8 0 0 0 7 6.4a6 6 0 0 0-3.3 5.3 3.4 3.4 0 0 0 3.4 3.4H18a3 3 0 1 0-.3-6zM4 11.7c0-1 .3-2 .8-2.8-.7.7-1.1 1.7-1.1 2.8a3 3 0 0 0 3 3H6a2.7 2.7 0 0 1-2-2.9z"/&gt;&lt;/svg&gt;
+SoundCloud
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="music-embed"&gt;
+&lt;iframe class="sc" height="166" scrolling="no" frameborder="0"
+src="https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Ffity-fitt%2Fdreamline-express-1&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="music-card"&gt;
+&lt;div class="music-body"&gt;
+&lt;h3 class="music-title"&gt;The Absurd&lt;/h3&gt;
+&lt;div class="music-meta"&gt;
+&lt;span&gt;&lt;strong&gt;Album:&lt;/strong&gt; The Nature of Life&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Genre:&lt;/strong&gt; Tech Trance&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Composer:&lt;/strong&gt; nosaerc&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Release:&lt;/strong&gt; 2024&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="music-links"&gt;
+&lt;a class="btn" href="https://soundcloud.com/fity-fitt/the-absurd-5" target="_blank" rel="noopener" aria-label="SoundCloud"&gt;
+&lt;svg viewBox="0 0 24 24" aria-hidden="true"&gt;&lt;path d="M17.6 10.2a3.9 3.9 0 0 0-3.7-2.7c-.4 0-.7 0-1 .1A5.8 5.8 0 0 0 7 6.4a6 6 0 0 0-3.3 5.3 3.4 3.4 0 0 0 3.4 3.4H18a3 3 0 1 0-.3-6zM4 11.7c0-1 .3-2 .8-2.8-.7.7-1.1 1.7-1.1 2.8a3 3 0 0 0 3 3H6a2.7 2.7 0 0 1-2-2.9z"/&gt;&lt;/svg&gt;
+SoundCloud
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="music-embed"&gt;
+&lt;iframe class="sc" height="166" scrolling="no" frameborder="0"
+src="https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Ffity-fitt%2Fthe-absurd-5&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="music-card"&gt;
+&lt;div class="music-body"&gt;
+&lt;h3 class="music-title"&gt;Echoes of Solitude&lt;/h3&gt;
+&lt;div class="music-meta"&gt;
+&lt;span&gt;&lt;strong&gt;Album:&lt;/strong&gt; The Nature of Life&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Genre:&lt;/strong&gt; Uplifting Trance&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Composer:&lt;/strong&gt; nosaerc&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Release:&lt;/strong&gt; 2024&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="music-links"&gt;
+&lt;a class="btn" href="https://soundcloud.com/fity-fitt/echoes-of-solitude-2" target="_blank" rel="noopener" aria-label="SoundCloud"&gt;
+&lt;svg viewBox="0 0 24 24" aria-hidden="true"&gt;&lt;path d="M17.6 10.2a3.9 3.9 0 0 0-3.7-2.7c-.4 0-.7 0-1 .1A5.8 5.8 0 0 0 7 6.4a6 6 0 0 0-3.3 5.3 3.4 3.4 0 0 0 3.4 3.4H18a3 3 0 1 0-.3-6zM4 11.7c0-1 .3-2 .8-2.8-.7.7-1.1 1.7-1.1 2.8a3 3 0 0 0 3 3H6a2.7 2.7 0 0 1-2-2.9z"/&gt;&lt;/svg&gt;
+SoundCloud
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="music-embed"&gt;
+&lt;iframe class="sc" height="166" scrolling="no" frameborder="0"
+src="https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Ffity-fitt%2Fechoes-of-solitude-2&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="music-card"&gt;
+&lt;div class="music-body"&gt;
+&lt;h3 class="music-title"&gt;Tranceparent Sky (Progressive VIP Remix)&lt;/h3&gt;
+&lt;div class="music-meta"&gt;
+&lt;span&gt;&lt;strong&gt;Album:&lt;/strong&gt; Single&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Genre:&lt;/strong&gt; Progressive House&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Composer:&lt;/strong&gt; nosaerc&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Release:&lt;/strong&gt; 2024&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="music-links"&gt;
+&lt;a class="btn" href="https://youtu.be/bQjtmbqV0UM?si=dB6REkVqYkyZcNt4" target="_blank" rel="noopener" aria-label="YouTube"&gt;
+&lt;svg viewBox="0 0 24 24" aria-hidden="true"&gt;&lt;path d="M23.5 6.2a3.1 3.1 0 0 0-2.2-2.2C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.3.5A3.1 3.1 0 0 0 .5 6.2C0 8 0 12 0 12s0 4 .5 5.8a3.1 3.1 0 0 0 2.2 2.2c1.8.5 9.3.5 9.3.5s7.5 0 9.3-.5a3.1 3.1 0 0 0 2.2-2.2C24 16 24 12 24 12s0-4-.5-5.8zM9.6 15.5V8.5L15.8 12l-6.2 3.5z"/&gt;&lt;/svg&gt;
+YouTube
+&lt;/a&gt;
+&lt;a class="btn" href="https://soundcloud.com/fity-fitt/tranceparent-sky-progressive-vip-remix" target="_blank" rel="noopener" aria-label="SoundCloud"&gt;
+&lt;svg viewBox="0 0 24 24" aria-hidden="true"&gt;&lt;path d="M17.6 10.2a3.9 3.9 0 0 0-3.7-2.7c-.4 0-.7 0-1 .1A5.8 5.8 0 0 0 7 6.4a6 6 0 0 0-3.3 5.3 3.4 3.4 0 0 0 3.4 3.4H18a3 3 0 1 0-.3-6zM4 11.7c0-1 .3-2 .8-2.8-.7.7-1.1 1.7-1.1 2.8a3 3 0 0 0 3 3H6a2.7 2.7 0 0 1-2-2.9z"/&gt;&lt;/svg&gt;
+SoundCloud
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="music-embed"&gt;
+&lt;iframe class="yt"
+src="https://www.youtube-nocookie.com/embed/bQjtmbqV0UM?si=dB6REkVqYkyZcNt4"
+title="YouTube player" loading="lazy"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe class="sc" height="166" scrolling="no" frameborder="0"
+src="https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Ffity-fitt%2Ftranceparent-sky-progressive-vip-remix&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="music-card"&gt;
+&lt;div class="music-body"&gt;
+&lt;h3 class="music-title"&gt;Tranceparent Sky (Uplifting VIP Remix)&lt;/h3&gt;
+&lt;div class="music-meta"&gt;
+&lt;span&gt;&lt;strong&gt;Album:&lt;/strong&gt; Single&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Genre:&lt;/strong&gt; Uplifting Trance&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Composer:&lt;/strong&gt; nosaerc&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Release:&lt;/strong&gt; 2024&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="music-links"&gt;
+&lt;a class="btn" href="https://youtu.be/4q1qElCV87k?si=B47VG2xF1pynbMB1" target="_blank" rel="noopener" aria-label="YouTube"&gt;
+&lt;svg viewBox="0 0 24 24" aria-hidden="true"&gt;&lt;path d="M23.5 6.2a3.1 3.1 0 0 0-2.2-2.2C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.3.5A3.1 3.1 0 0 0 .5 6.2C0 8 0 12 0 12s0 4 .5 5.8a3.1 3.1 0 0 0 2.2 2.2c1.8.5 9.3.5 9.3.5s7.5 0 9.3-.5a3.1 3.1 0 0 0 2.2-2.2C24 16 24 12 24 12s0-4-.5-5.8zM9.6 15.5V8.5L15.8 12l-6.2 3.5z"/&gt;&lt;/svg&gt;
+YouTube
+&lt;/a&gt;
+&lt;a class="btn" href="https://soundcloud.com/fity-fitt/tranceparent-sky-uplifting-vip-remix" target="_blank" rel="noopener" aria-label="SoundCloud"&gt;
+&lt;svg viewBox="0 0 24 24" aria-hidden="true"&gt;&lt;path d="M17.6 10.2a3.9 3.9 0 0 0-3.7-2.7c-.4 0-.7 0-1 .1A5.8 5.8 0 0 0 7 6.4a6 6 0 0 0-3.3 5.3 3.4 3.4 0 0 0 3.4 3.4H18a3 3 0 1 0-.3-6zM4 11.7c0-1 .3-2 .8-2.8-.7.7-1.1 1.7-1.1 2.8a3 3 0 0 0 3 3H6a2.7 2.7 0 0 1-2-2.9z"/&gt;&lt;/svg&gt;
+SoundCloud
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="music-embed"&gt;
+&lt;iframe class="yt"
+src="https://www.youtube-nocookie.com/embed/4q1qElCV87k?si=B47VG2xF1pynbMB1"
+title="YouTube player" loading="lazy"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe class="sc" height="166" scrolling="no" frameborder="0"
+src="https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Ffity-fitt%2Ftranceparent-sky-uplifting-vip-remix&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="music-card"&gt;
+&lt;div class="music-body"&gt;
+&lt;h3 class="music-title"&gt;Back to You (Live Edit) 2024&lt;/h3&gt;
+&lt;div class="music-meta"&gt;
+&lt;span&gt;&lt;strong&gt;Album:&lt;/strong&gt; Single&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Genre:&lt;/strong&gt; Euphoric Hardstyle&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Composer:&lt;/strong&gt; nosaerc&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Release:&lt;/strong&gt; 2024&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="music-links"&gt;
+&lt;a class="btn" href="https://youtu.be/t6ts5SUDe8A?si=DWZSYQP-w-Gvar4G" target="_blank" rel="noopener" aria-label="YouTube"&gt;
+&lt;svg viewBox="0 0 24 24" aria-hidden="true"&gt;&lt;path d="M23.5 6.2a3.1 3.1 0 0 0-2.2-2.2C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.3.5A3.1 3.1 0 0 0 .5 6.2C0 8 0 12 0 12s0 4 .5 5.8a3.1 3.1 0 0 0 2.2 2.2c1.8.5 9.3.5 9.3.5s7.5 0 9.3-.5a3.1 3.1 0 0 0 2.2-2.2C24 16 24 12 24 12s0-4-.5-5.8zM9.6 15.5V8.5L15.8 12l-6.2 3.5z"/&gt;&lt;/svg&gt;
+YouTube
+&lt;/a&gt;
+&lt;a class="btn" href="https://soundcloud.com/fity-fitt/back-to-you-live-edit-2024" target="_blank" rel="noopener" aria-label="SoundCloud"&gt;
+&lt;svg viewBox="0 0 24 24" aria-hidden="true"&gt;&lt;path d="M17.6 10.2a3.9 3.9 0 0 0-3.7-2.7c-.4 0-.7 0-1 .1A5.8 5.8 0 0 0 7 6.4a6 6 0 0 0-3.3 5.3 3.4 3.4 0 0 0 3.4 3.4H18a3 3 0 1 0-.3-6zM4 11.7c0-1 .3-2 .8-2.8-.7.7-1.1 1.7-1.1 2.8a3 3 0 0 0 3 3H6a2.7 2.7 0 0 1-2-2.9z"/&gt;&lt;/svg&gt;
+SoundCloud
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="music-embed"&gt;
+&lt;iframe class="yt"
+src="https://www.youtube-nocookie.com/embed/t6ts5SUDe8A?si=DWZSYQP-w-Gvar4G"
+title="YouTube player" loading="lazy"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe class="sc" height="166" scrolling="no" frameborder="0"
+src="https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Ffity-fitt%2Fback-to-you-live-edit-2024&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="music-card"&gt;
+&lt;div class="music-body"&gt;
+&lt;h3 class="music-title"&gt;Frosty Dawn&lt;/h3&gt;
+&lt;div class="music-meta"&gt;
+&lt;span&gt;&lt;strong&gt;Album:&lt;/strong&gt; GL4CIER&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Genre:&lt;/strong&gt; Uplifting Trance&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Composer:&lt;/strong&gt; nosaerc&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Release:&lt;/strong&gt; 2024&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="music-links"&gt;
+&lt;a class="btn" href="https://youtu.be/T6SbNRxQSeg?si=jS9vWMFUxv4DXwtf" target="_blank" rel="noopener" aria-label="YouTube"&gt;
+&lt;svg viewBox="0 0 24 24" aria-hidden="true"&gt;&lt;path d="M23.5 6.2a3.1 3.1 0 0 0-2.2-2.2C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.3.5A3.1 3.1 0 0 0 .5 6.2C0 8 0 12 0 12s0 4 .5 5.8a3.1 3.1 0 0 0 2.2 2.2c1.8.5 9.3.5 9.3.5s7.5 0 9.3-.5a3.1 3.1 0 0 0 2.2-2.2C24 16 24 12 24 12s0-4-.5-5.8zM9.6 15.5V8.5L15.8 12l-6.2 3.5z"/&gt;&lt;/svg&gt;
+YouTube
+&lt;/a&gt;
+&lt;a class="btn" href="https://soundcloud.com/fity-fitt/frosty-dawn" target="_blank" rel="noopener" aria-label="SoundCloud"&gt;
+&lt;svg viewBox="0 0 24 24" aria-hidden="true"&gt;&lt;path d="M17.6 10.2a3.9 3.9 0 0 0-3.7-2.7c-.4 0-.7 0-1 .1A5.8 5.8 0 0 0 7 6.4a6 6 0 0 0-3.3 5.3 3.4 3.4 0 0 0 3.4 3.4H18a3 3 0 1 0-.3-6zM4 11.7c0-1 .3-2 .8-2.8-.7.7-1.1 1.7-1.1 2.8a3 3 0 0 0 3 3H6a2.7 2.7 0 0 1-2-2.9z"/&gt;&lt;/svg&gt;
+SoundCloud
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="music-embed"&gt;
+&lt;iframe class="yt"
+src="https://www.youtube-nocookie.com/embed/T6SbNRxQSeg?si=jS9vWMFUxv4DXwtf"
+title="YouTube player" loading="lazy"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe class="sc" height="166" scrolling="no" frameborder="0"
+src="https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Ffity-fitt%2Ffrosty-dawn&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="music-card"&gt;
+&lt;div class="music-body"&gt;
+&lt;h3 class="music-title"&gt;Irregular Forces&lt;/h3&gt;
+&lt;div class="music-meta"&gt;
+&lt;span&gt;&lt;strong&gt;Album:&lt;/strong&gt; T.Workz Vol.6 w/ traP&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Genre:&lt;/strong&gt; Rawstyle&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Composer:&lt;/strong&gt; nosaerc&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Release:&lt;/strong&gt; 2023&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="music-links"&gt;
+&lt;a class="btn" href="https://youtu.be/YmKrFsocNjs?si=DjS5JcfDQ106ZrN9" target="_blank" rel="noopener" aria-label="YouTube"&gt;
+&lt;svg viewBox="0 0 24 24" aria-hidden="true"&gt;&lt;path d="M23.5 6.2a3.1 3.1 0 0 0-2.2-2.2C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.3.5A3.1 3.1 0 0 0 .5 6.2C0 8 0 12 0 12s0 4 .5 5.8a3.1 3.1 0 0 0 2.2 2.2c1.8.5 9.3.5 9.3.5s7.5 0 9.3-.5a3.1 3.1 0 0 0 2.2-2.2C24 16 24 12 24 12s0-4-.5-5.8zM9.6 15.5V8.5L15.8 12l-6.2 3.5z"/&gt;&lt;/svg&gt;
+YouTube
+&lt;/a&gt;
+&lt;a class="btn" href="https://soundcloud.com/fity-fitt/irregular-forces" target="_blank" rel="noopener" aria-label="SoundCloud"&gt;
+&lt;svg viewBox="0 0 24 24" aria-hidden="true"&gt;&lt;path d="M17.6 10.2a3.9 3.9 0 0 0-3.7-2.7c-.4 0-.7 0-1 .1A5.8 5.8 0 0 0 7 6.4a6 6 0 0 0-3.3 5.3 3.4 3.4 0 0 0 3.4 3.4H18a3 3 0 1 0-.3-6zM4 11.7c0-1 .3-2 .8-2.8-.7.7-1.1 1.7-1.1 2.8a3 3 0 0 0 3 3H6a2.7 2.7 0 0 1-2-2.9z"/&gt;&lt;/svg&gt;
+SoundCloud
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="music-embed"&gt;
+&lt;iframe class="yt"
+src="https://www.youtube-nocookie.com/embed/YmKrFsocNjs?si=DjS5JcfDQ106ZrN9"
+title="YouTube player" loading="lazy"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe class="sc" height="166" scrolling="no" frameborder="0"
+src="https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Ffity-fitt%2Firregular-forces&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="music-card"&gt;
+&lt;div class="music-body"&gt;
+&lt;h3 class="music-title"&gt;Fall out of fall&lt;/h3&gt;
+&lt;div class="music-meta"&gt;
+&lt;span&gt;&lt;strong&gt;Album:&lt;/strong&gt; traP ピアノコンピ 2023&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Genre:&lt;/strong&gt; Piano Solo&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Composer:&lt;/strong&gt; nosaerc&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Release:&lt;/strong&gt; 2023&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="music-links"&gt;
+&lt;a class="btn" href="https://youtu.be/UtQYFu7EBWg?si=mU5J3ZF0wkZcBazB" target="_blank" rel="noopener" aria-label="YouTube"&gt;
+&lt;svg viewBox="0 0 24 24" aria-hidden="true"&gt;&lt;path d="M23.5 6.2a3.1 3.1 0 0 0-2.2-2.2C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.3.5A3.1 3.1 0 0 0 .5 6.2C0 8 0 12 0 12s0 4 .5 5.8a3.1 3.1 0 0 0 2.2 2.2c1.8.5 9.3.5 9.3.5s7.5 0 9.3-.5a3.1 3.1 0 0 0 2.2-2.2C24 16 24 12 24 12s0-4-.5-5.8zM9.6 15.5V8.5L15.8 12l-6.2 3.5z"/&gt;&lt;/svg&gt;
+YouTube
+&lt;/a&gt;
+&lt;a class="btn" href="https://soundcloud.com/fity-fitt/fall-out-of-fall" target="_blank" rel="noopener" aria-label="SoundCloud"&gt;
+&lt;svg viewBox="0 0 24 24" aria-hidden="true"&gt;&lt;path d="M17.6 10.2a3.9 3.9 0 0 0-3.7-2.7c-.4 0-.7 0-1 .1A5.8 5.8 0 0 0 7 6.4a6 6 0 0 0-3.3 5.3 3.4 3.4 0 0 0 3.4 3.4H18a3 3 0 1 0-.3-6zM4 11.7c0-1 .3-2 .8-2.8-.7.7-1.1 1.7-1.1 2.8a3 3 0 0 0 3 3H6a2.7 2.7 0 0 1-2-2.9z"/&gt;&lt;/svg&gt;
+SoundCloud
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="music-embed"&gt;
+&lt;iframe class="yt"
+src="https://www.youtube-nocookie.com/embed/UtQYFu7EBWg?si=mU5J3ZF0wkZcBazB"
+title="YouTube player" loading="lazy"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe class="sc" height="166" scrolling="no" frameborder="0"
+src="https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Ffity-fitt%2Ffall-out-of-fall&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="music-card"&gt;
+&lt;div class="music-body"&gt;
+&lt;h3 class="music-title"&gt;Back to You&lt;/h3&gt;
+&lt;div class="music-meta"&gt;
+&lt;span&gt;&lt;strong&gt;Album:&lt;/strong&gt; traP 新歓コンピ 2023&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Genre:&lt;/strong&gt; Euphoric Hardstyle&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Composer:&lt;/strong&gt; nosaerc&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Release:&lt;/strong&gt; 2023&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="music-links"&gt;
+&lt;a class="btn" href="https://youtu.be/iSoNOIl4nDM?si=YsKl549ekgIuJ0kl" target="_blank" rel="noopener" aria-label="YouTube"&gt;
+&lt;svg viewBox="0 0 24 24" aria-hidden="true"&gt;&lt;path d="M23.5 6.2a3.1 3.1 0 0 0-2.2-2.2C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.3.5A3.1 3.1 0 0 0 .5 6.2C0 8 0 12 0 12s0 4 .5 5.8a3.1 3.1 0 0 0 2.2 2.2c1.8.5 9.3.5 9.3.5s7.5 0 9.3-.5a3.1 3.1 0 0 0 2.2-2.2C24 16 24 12 24 12s0-4-.5-5.8zM9.6 15.5V8.5L15.8 12l-6.2 3.5z"/&gt;&lt;/svg&gt;
+YouTube
+&lt;/a&gt;
+&lt;a class="btn" href="https://soundcloud.com/fity-fitt/back-to-you" target="_blank" rel="noopener" aria-label="SoundCloud"&gt;
+&lt;svg viewBox="0 0 24 24" aria-hidden="true"&gt;&lt;path d="M17.6 10.2a3.9 3.9 0 0 0-3.7-2.7c-.4 0-.7 0-1 .1A5.8 5.8 0 0 0 7 6.4a6 6 0 0 0-3.3 5.3 3.4 3.4 0 0 0 3.4 3.4H18a3 3 0 1 0-.3-6zM4 11.7c0-1 .3-2 .8-2.8-.7.7-1.1 1.7-1.1 2.8a3 3 0 0 0 3 3H6a2.7 2.7 0 0 1-2-2.9z"/&gt;&lt;/svg&gt;
+SoundCloud
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="music-embed"&gt;
+&lt;iframe class="yt"
+src="https://www.youtube-nocookie.com/embed/iSoNOIl4nDM?si=YsKl549ekgIuJ0kl"
+title="YouTube player" loading="lazy"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe class="sc" height="166" scrolling="no" frameborder="0"
+src="https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Ffity-fitt%2Fback-to-you&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="music-card"&gt;
+&lt;div class="music-body"&gt;
+&lt;h3 class="music-title"&gt;New Endeavors&lt;/h3&gt;
+&lt;div class="music-meta"&gt;
+&lt;span&gt;&lt;strong&gt;Album:&lt;/strong&gt; TSUBAME 2023&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Genre:&lt;/strong&gt; Uplifting Trance&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Composer:&lt;/strong&gt; nosaerc&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;Release:&lt;/strong&gt; 2023&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="music-links"&gt;
+&lt;a class="btn" href="https://youtu.be/rXl_NLht5eQ?si=e-Ts_NYl5nWL67Nh" target="_blank" rel="noopener" aria-label="YouTube"&gt;
+&lt;svg viewBox="0 0 24 24" aria-hidden="true"&gt;&lt;path d="M23.5 6.2a3.1 3.1 0 0 0-2.2-2.2C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.3.5A3.1 3.1 0 0 0 .5 6.2C0 8 0 12 0 12s0 4 .5 5.8a3.1 3.1 0 0 0 2.2 2.2c1.8.5 9.3.5 9.3.5s7.5 0 9.3-.5a3.1 3.1 0 0 0 2.2-2.2C24 16 24 12 24 12s0-4-.5-5.8zM9.6 15.5V8.5L15.8 12l-6.2 3.5z"/&gt;&lt;/svg&gt;
+YouTube
+&lt;/a&gt;
+&lt;a class="btn" href="https://soundcloud.com/fity-fitt/new-endeavors" target="_blank" rel="noopener" aria-label="SoundCloud"&gt;
+&lt;svg viewBox="0 0 24 24" aria-hidden="true"&gt;&lt;path d="M17.6 10.2a3.9 3.9 0 0 0-3.7-2.7c-.4 0-.7 0-1 .1A5.8 5.8 0 0 0 7 6.4a6 6 0 0 0-3.3 5.3 3.4 3.4 0 0 0 3.4 3.4H18a3 3 0 1 0-.3-6zM4 11.7c0-1 .3-2 .8-2.8-.7.7-1.1 1.7-1.1 2.8a3 3 0 0 0 3 3H6a2.7 2.7 0 0 1-2-2.9z"/&gt;&lt;/svg&gt;
+SoundCloud
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="music-embed"&gt;
+&lt;iframe class="yt"
+src="https://www.youtube-nocookie.com/embed/rXl_NLht5eQ?si=e-Ts_NYl5nWL67Nh"
+title="YouTube player" loading="lazy"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe class="sc" height="166" scrolling="no" frameborder="0"
+src="https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Ffity-fitt%2Fnew-endeavors&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>Research</title><link>https://nosaerc.com/research/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nosaerc.com/research/</guid><description>&lt;p&gt;今後の更新にご期待ください．&lt;/p&gt;</description></item></channel></rss>
