@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://nosaerc.com/"
 title   = "Noah's Ark"
 theme   = "PaperMod"
 languageCode = "ja"

@@ -26,9 +26,12 @@ Uplifting TranceやEuphoric Hardstyleなどのメロディックなジャンル�
 
 また，2023年度からDJ活動も開始し，定期的にサークルイベントに出演している．
 
-## コンタクトContact & SNS
+## コンタクトContact & 各種SNS
 
 - mail：fitt.gset[at]gmail.com
 - X(twitter)：@nosaerc_m OR @nosaerc_c
 - [YouTube](https://www.youtube.com/@nosaerc)
 - [SoundCloud](https://soundcloud.com/fity-fitt)
+- [GitHub](https://github.com/tillwhen/)
+
+> このサイトはHugo,Git,GitHub,Cloudflareを使用して作成しました．
