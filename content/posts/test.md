@@ -7,7 +7,7 @@ tags: ["logic"]
 
 categories: ["misc"]
 
-draft: false
+draft: true
 
 ---
 
