@@ -13,15 +13,15 @@ defaultContentLanguageInSubdir = false
   unsafe = true
 
 [params]
-  ShowReadingTime = true
   ShowToc = true
   math = true
   defaultTheme = "light"        # ← ここを light に
   disableThemeToggle = true     # ← 切替ボタンを非表示
+  ShowReadingTime = false
 
 [params.homeInfoParams]
-  Title = "Your Name"
-  Content = "論理・音楽・ブログ。ここに短い紹介文。"
+  Title = "Noah's Ark"
+  Content = "*理性をひっくり返す，思索の方舟*"
 
 assets = [ "css/extended/custom.css" ]
 

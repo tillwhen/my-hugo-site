@@ -11,13 +11,7 @@
     <loc>http://localhost:1313/posts/inshi/</loc>
     <lastmod>2025-09-21T12:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/bio/</loc>
-  </url><url>
     <loc>http://localhost:1313/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/music/</loc>
-  </url><url>
-    <loc>http://localhost:1313/research/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url>
