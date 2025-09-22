@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="{{- site.Language.Lang | default "en" }}" dir="{{- site.Language.LanguageDirection | default "ltr" }}">
+
+<head>
+    {{- /* PaperModテーマの標準的な<head>内容を読み込みます */ -}}
+    {{- partial "head.html" . -}}
+
+    {{- /* ========= ここからが安全なMathJax読み込み部分 ========= */ -}}
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['\\(','\\)']],
+          displayMath: [['\\[','\\]']],
+          processEscapes: false,
+          packages: {'[+]': ['ams','bm']},
+          tags: 'ams'
+        },
+        loader: {
+          load: ['[tex]/ams','[tex]/bm']
+        },
+        options: {
+          skipHtmlTags: ['script','noscript','style','textarea','pre','code']
+        },
+        startup: {
+          ready: () => {
+            MathJax.startup.defaultReady();
+          }
+        }
+      };
+    </script>
+    <script async id="MathJax-script"
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+    {{- /* ========= ここまでが安全なMathJax読み込み部分 ========= */ -}}
+</head>
+
+<body class="
+{{- if (or (ne .Kind `page` ) (ne .Layout `archives`) (ne .Layout `search`)) -}}
+{{- print "list" -}}
+{{- end -}}
+{{- if eq $.Site.Params.defaultTheme `dark` -}}
+{{- print " dark" -}}
+{{- end -}}
+" id="top">
+    {{- partial "header.html" . -}}
+    <main class="main">
+        {{- block "main" . }}{{- end }}
+    </main>
+    {{- partial "footer.html" . -}}
+</body>
+
+</html>

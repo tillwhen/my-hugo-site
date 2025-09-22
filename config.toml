@@ -1,0 +1,48 @@
+baseURL = "http://localhost:1313/"
+title   = "Noah's Ark"
+theme   = "PaperMod"
+languageCode = "ja"
+defaultContentLanguage = "ja"
+defaultContentLanguageInSubdir = false
+
+[pagination]
+  pagerSize = 10
+
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params]
+  ShowReadingTime = true
+  ShowToc = true
+  math = true
+  defaultTheme = "light"        # ← ここを light に
+  disableThemeToggle = true     # ← 切替ボタンを非表示
+
+[params.homeInfoParams]
+  Title = "Your Name"
+  Content = "論理・音楽・ブログ。ここに短い紹介文。"
+
+assets = [ "css/extended/custom.css" ]
+
+[menu]
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 10
+
+  [[menu.main]]
+    name = "Research"
+    url = "/research/"
+    weight = 20
+
+  [[menu.main]]
+    name = "Music"
+    url = "/music/"
+    weight = 30
+
+  [[menu.main]]
+    name = "Bio"
+    url = "/bio/"
+    weight = 40
+

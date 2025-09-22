@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Noah&#39;s Ark</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Noah&#39;s Ark</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 21 Sep 2025 12:00:00 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>院試体験記</title>
+      <link>http://localhost:1313/posts/inshi/</link>
+      <pubDate>Sun, 21 Sep 2025 12:00:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/inshi/</guid>
+      <description>&lt;script&gt;
+  // MathJax の設定をページに直接記述
+  window.MathJax = {
+    tex: {
+      inlineMath: [[&#39;\\(&#39;,&#39;\\)&#39;]],
+      displayMath: [[&#39;\\[&#39;,&#39;\\]&#39;]]
+    }
+  };
+&lt;/script&gt;
+&lt;script id=&#34;MathJax-script&#34; async src=&#34;https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js&#34;&gt;&lt;/script&gt;
+&lt;h1 id=&#34;院試合格体験記&#34;&gt;院試合格体験記&lt;/h1&gt;
+&lt;p&gt;@nosaercによる，東京科学大学 情報理工学院 数理・計算科学系 B日程(内部大の外部系受験・2026年度入学・2025年度受験)についての記録です．&lt;/p&gt;
+&lt;h2 id=&#34;試験の概要&#34;&gt;試験の概要&lt;/h2&gt;
+&lt;p&gt;数字は正確な値ではなく概数値です．公式な数値は必ずあなたが受験する年度の募集要項を確認してください．募集要項にはすべてが載っています．&lt;/p&gt;
+&lt;p&gt;数理計算科学系B日程では，8月の中旬ごろに3時間半の数学の試験を受験し，その結果により面接の受験可否が発表されます．そして試験の翌週に口頭試問が行われ，数学100点，英語(TOEICのスコア)20点と面接の出来で合否が決まります．&lt;/p&gt;
+&lt;p&gt;数理・計算科学系修士課程の受け入れ定員は約50名です．A日程では10～15名程度が受験し，そのうちほとんど全員が合格します．つまり，B日程の定員は約40名です．受験番号の数から，概ね筆頭試験の受験者数は80~100名前後であるため，B日程のみの倍率は2倍程度です．
+また，全体の受験者数は100名前後であるため，全体の倍率は2倍前後で推移しています．&lt;/p&gt;
+&lt;h2 id=&#34;筆者の概要&#34;&gt;筆者の概要&lt;/h2&gt;
+&lt;p&gt;科学大理学院物理学系．数学や哲学など好きな分野の講義には全力で取り組むが，物理学系の専門科目などは必要な単位が取れればOK．合間を縫って系外科目を19単位取得．&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;期間&lt;/th&gt;
+          &lt;th&gt;GPA&lt;/th&gt;
+          &lt;th&gt;GPT&lt;/th&gt;
+          &lt;th&gt;専門GPA&lt;/th&gt;
+          &lt;th&gt;教養GPA&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;通算&lt;/td&gt;
+          &lt;td&gt;2.97&lt;/td&gt;
+          &lt;td&gt;3.25&lt;/td&gt;
+          &lt;td&gt;2.84&lt;/td&gt;
+          &lt;td&gt;3.11&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;1年次&lt;/td&gt;
+          &lt;td&gt;3.14&lt;/td&gt;
+          &lt;td&gt;&amp;mdash;&amp;mdash;-&lt;/td&gt;
+          &lt;td&gt;3.90&lt;/td&gt;
+          &lt;td&gt;3.10&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;2年次&lt;/td&gt;
+          &lt;td&gt;2.90&lt;/td&gt;
+          &lt;td&gt;&amp;mdash;&amp;mdash;-&lt;/td&gt;
+          &lt;td&gt;2.86&lt;/td&gt;
+          &lt;td&gt;3.00&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;3年次&lt;/td&gt;
+          &lt;td&gt;2.68&lt;/td&gt;
+          &lt;td&gt;&amp;mdash;&amp;mdash;-&lt;/td&gt;
+          &lt;td&gt;2.56&lt;/td&gt;
+          &lt;td&gt;4.00&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;4年前期&lt;/td&gt;
+          &lt;td&gt;3.28&lt;/td&gt;
+          &lt;td&gt;&amp;mdash;&amp;mdash;-&lt;/td&gt;
+          &lt;td&gt;3.28&lt;/td&gt;
+          &lt;td&gt;&amp;mdash;&amp;mdash;-&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;勉強方法&#34;&gt;勉強方法&lt;/h2&gt;
+&lt;p&gt;まず，4年前期までに以下の科目を系外履修して勉強し，単位を取りました．&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;代数学概論第一(数学系)
+&lt;ul&gt;
+&lt;li&gt;環論(部分環，体，剰余環，整域，イデアル)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;代数学概論第二(数学系)
+&lt;ul&gt;
+&lt;li&gt;環論(準同型，ED，PID，UFD)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;確率論基礎(数理計算科学系)
+&lt;ul&gt;
+&lt;li&gt;公理的確率論(測度論はスルー)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;幾何学概論第一(数学系)
+&lt;ul&gt;
+&lt;li&gt;\(\mathbb{R}^2,\mathbb{R}^3\)上の曲線論&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;幾何学概論第二(数学系)
+&lt;ul&gt;
+&lt;li&gt;\(\mathbb{R}^3\)上の曲面論など&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;位相空間論第一(数学系)
+&lt;ul&gt;
+&lt;li&gt;集合論&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;位相空間論第二(数学系)
+&lt;ul&gt;
+&lt;li&gt;順序，Zorn，距離空間&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;オートマトンと数理言語論(数理計算科学系)
+&lt;ul&gt;
+&lt;li&gt;DFA，NFA，正規表現，文脈自由文法，PDA，ポンピング補題&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;数理論理学(数理計算科学系)
+&lt;ul&gt;
+&lt;li&gt;一階述語論理(自然演繹)の健全性と完全性，直観主義論理，様相論理，不完全性定理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;加えて，物理学系の講義(物理数学III)と数理計算科学系の講義(代数系)で群論を勉強しましたが，途中からサボりました．&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>テスト投稿</title>
+      <link>http://localhost:1313/posts/test/</link>
+      <pubDate>Thu, 18 Sep 2025 12:00:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/test/</guid>
+      <description>&lt;p&gt;数式テスト：$aaa$&lt;/p&gt;
+&lt;p&gt;[
+\int_0^1 x^ndx = \frac{1}{n+1}\quad(n&amp;gt;-1)
+]&lt;/p&gt;
+&lt;p&gt;\begin{align}
+X &amp;amp;=Y \\
+&amp;amp;=Z
+\end{align}&lt;/p&gt;
+&lt;p&gt;これはダミー記事です。数式テスト：\( a^2 + b^2 = c^2 \)
+&lt;/p&gt;
+&lt;p&gt;YouTube埋め込み
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/MQ1EFpSJ7K8?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;SoundCloud埋め込み
+&lt;iframe width=&#34;100%&#34; height=&#34;166&#34; scrolling=&#34;no&#34; frameborder=&#34;no&#34;
+  src=&#34;https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Ffity-fitt%2Flogica-light-again-nosaerc&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&#34;&gt;
+&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;p&gt;Spotify埋め込み
+&lt;iframe style=&#34;border-radius:12px&#34; width=&#34;100%&#34; height=&#34;152&#34;
+  src=&#34;https://open.spotify.com/embed/track/6ku3CvD9ehE0TPjNFUSDzk&#34;
+  allow=&#34;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&#34;&gt;
+&lt;/iframe&gt;
+&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

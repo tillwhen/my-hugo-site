@@ -1,0 +1,92 @@
+{{/* musiccard (centered + cover support)
+  必須: title
+  任意: album, genre, composer, year, youtube, soundcloud, spotify, embed, cover
+  例:
+  {{< musiccard
+      title="Dreamline Express"
+      album="Celestial"
+      genre="Uplifting Trance"
+      composer="Shu Suzuki"
+      year="2025"
+      cover="/images/jacket/dreamline.jpg"
+      youtube="https://youtu.be/XXXXXXXXXXX"
+      soundcloud="https://soundcloud.com/your/track-1"
+      spotify="https://open.spotify.com/track/XXXXXXXX"
+      embed="true"
+  >}}
+*/}}
+
+{{- $title := .Get "title" -}}
+{{- $album := .Get "album" -}}
+{{- $genre := .Get "genre" -}}
+{{- $composer := .Get "composer" -}}
+{{- $year := .Get "year" -}}
+{{- $cover := .Get "cover" -}}
+{{- $youtube := .Get "youtube" -}}
+{{- $soundcloud := .Get "soundcloud" -}}
+{{- $spotify := .Get "spotify" -}}
+{{- $embed := (lower (.Get "embed")) | default "false" -}}
+
+<div class="music-card">
+  {{ if $cover }}
+  <div class="music-cover">
+    <img src="{{ $cover }}" alt="{{ with $title }}{{ . }}{{ else }}cover{{ end }}" loading="lazy" />
+  </div>
+  {{ end }}
+
+  <div class="music-body">
+    {{ if $title }}<h3 class="music-title">{{ $title }}</h3>{{ end }}
+
+    <div class="music-meta">
+      {{ if $album }}<span><strong>Album:</strong> {{ $album }}</span>{{ end }}
+      {{ if $genre }}<span><strong>Genre:</strong> {{ $genre }}</span>{{ end }}
+      {{ if $composer }}<span><strong>Composer:</strong> {{ $composer }}</span>{{ end }}
+      {{ if $year }}<span><strong>Release:</strong> {{ $year }}</span>{{ end }}
+    </div>
+
+    <div class="music-links">
+      {{ if $youtube }}
+        <a class="btn" href="{{ $youtube }}" target="_blank" rel="noopener" aria-label="YouTube">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23.5 6.2a3.1 3.1 0 0 0-2.2-2.2C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.3.5A3.1 3.1 0 0 0 .5 6.2C0 8 0 12 0 12s0 4 .5 5.8a3.1 3.1 0 0 0 2.2 2.2c1.8.5 9.3.5 9.3.5s7.5 0 9.3-.5a3.1 3.1 0 0 0 2.2-2.2C24 16 24 12 24 12s0-4-.5-5.8zM9.6 15.5V8.5L15.8 12l-6.2 3.5z"/></svg>
+          YouTube
+        </a>
+      {{ end }}
+      {{ if $soundcloud }}
+        <a class="btn" href="{{ $soundcloud }}" target="_blank" rel="noopener" aria-label="SoundCloud">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.6 10.2a3.9 3.9 0 0 0-3.7-2.7c-.4 0-.7 0-1 .1A5.8 5.8 0 0 0 7 6.4a6 6 0 0 0-3.3 5.3 3.4 3.4 0 0 0 3.4 3.4H18a3 3 0 1 0-.3-6zM4 11.7c0-1 .3-2 .8-2.8-.7.7-1.1 1.7-1.1 2.8a3 3 0 0 0 3 3H6a2.7 2.7 0 0 1-2-2.9z"/></svg>
+          SoundCloud
+        </a>
+      {{ end }}
+      {{ if $spotify }}
+        <a class="btn" href="{{ $spotify }}" target="_blank" rel="noopener" aria-label="Spotify">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0a12 12 0 1 0 0 24A12 12 0 0 0 12 0zm5.5 17.5a.9.9 0 0 1-1.2.3 13.7 13.7 0 0 0-7-1.9c-1.6 0-3.2.3-4.7.8a.9.9 0 1 1-.6-1.7 15.5 15.5 0 0 1 5.3-.9c2.7 0 5.3.6 7.6 1.9.5.3.7.9.4 1.5zm1.6-3.3a1 1 0 0 1-1.3.4 16.8 16.8 0 0 0-7.9-2c-1.9 0-3.8.3-5.6 1a1 1 0 0 1-.7-1.9 18.6 18.6 0 0 1 6.3-1.1c3 0 6 .7 8.7 2.2.5.2.7.8.5 1.4zm.1-3.5a1.1 1.1 0 0 1-1.5.5 19.8 19.8 0 0 0-8.7-2c-2.1 0-4.2.3-6.2 1a1.1 1.1 0 0 1-.7-2 21.7 21.7 0 0 1 6.9-1.2c3.4 0 6.9.8 10 2.5.6.2.8.9.5 1.5z"/></svg>
+          Spotify
+        </a>
+      {{ end }}
+    </div>
+
+    {{ if eq $embed "true" }}
+      <div class="music-embed">
+        {{ if $youtube }}
+          <iframe class="yt"
+            src="{{ replace $youtube "https://youtu.be/" "https://www.youtube-nocookie.com/embed/" }}"
+            title="YouTube player" loading="lazy"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        {{ end }}
+        {{ if $soundcloud }}
+          <iframe class="sc" height="166" scrolling="no" frameborder="0"
+            src="https://w.soundcloud.com/player/?url={{ $soundcloud | urlquery }}&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
+          </iframe>
+        {{ end }}
+        {{ if $spotify }}
+          {{ $sp := cond (in $spotify "/track/") (index (last 1 (split $spotify "/")) 0) $spotify }}
+          <iframe class="sp"
+            src="https://open.spotify.com/embed/track/{{ $sp }}"
+            loading="lazy"
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        {{ end }}
+      </div>
+    {{ end }}
+  </div>
+</div>

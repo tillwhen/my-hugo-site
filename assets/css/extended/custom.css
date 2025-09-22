@@ -1,0 +1,146 @@
+/* ===== Theme palette ===== */
+:root{
+  --bg: #eff7f7;           /* 背景(ライト) */
+  --panel: #ffffff;        /* カード背景 */
+  --text: #374151;         /* 本文 */
+  --muted: #475569;        /* 補助テキスト */
+  --border: #e5e7eb;       /* 枠線 */
+  --accent: #6366f1;       /* Indigo(主) */
+  --accent-2: #14b8a6;     /* Teal(副) */
+}
+
+/* ラッパーは透過（あなたの既存指定は残してOK） */
+.main, .page, .post-single, .list, .archive, .taxonomy, .terms, .not-found {
+  background: transparent !important;
+}
+
+/* ページ全体の地色（フォールバック） */
+html { background: var(--bg); }
+
+/* === ここから「固定レイヤのグラデ」 === */
+/* html の最背面に固定背景を敷く：全ページ同一に見える */
+html::before{
+  content:"";
+  position: fixed;
+  inset: 0;                /* top:0; right:0; bottom:0; left:0; と同じ */
+  z-index: -1;             /* すべての内容の背面 */
+  pointer-events: none;
+
+  /* あなたの元CSSのグラデをそのまま使用 */
+  background:
+    radial-gradient(1200px 800px at 80% -10%, rgba(99,102,241,.08), transparent 60%),
+    radial-gradient(1000px 700px at -10% 20%, rgba(20,184,166,.07), transparent 40%),
+    var(--bg);
+}
+a{ color: var(--accent); }
+
+
+/* ==== Music card (centered, cover-enabled) ==== */
+.music-card{
+  max-width: 780px;
+  margin: 1rem auto;                     /* カード自体を中央に */
+  border: 2px solid var(--border, #e5e7eb);
+  border-radius: 14px;
+  padding: 1rem 1.2rem;
+  background: rgba(255,255,255,0.78);
+  text-align: center;                    /* テキスト中央揃え */
+}
+:root[data-theme="dark"] .music-card{
+  border-color:#334155;
+  background: rgba(12,18,32,0.78);
+}
+
+/* cover 画像（任意） */
+.music-cover{
+  display:flex; justify-content:center; align-items:center;
+  margin-bottom: .75rem;
+}
+.music-cover img{
+  max-width: 260px;                      /* ジャケットの上限幅 */
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 24px rgba(0,0,0,.12);
+}
+
+.music-title{ margin:0 0 .5rem; font-size:1.30rem; font-weight:800; }
+
+.music-meta{
+  display:inline-flex;                   /* 中央寄せで横並び */
+  flex-wrap:wrap; gap:.55rem 1rem;
+  margin-bottom:.6rem;
+  font-size:1.05rem;                     /* 少し大きめ */
+  justify-content:center;
+}
+.music-meta strong{ font-weight:800; color: var(--text); }
+.music-desc{ margin:.4rem 0 .6rem; }
+
+.music-links{
+  display:flex; flex-wrap:wrap;
+  gap:.6rem; margin-top:.2rem;
+  justify-content:center;                /* ボタンを中央に */
+}
+.btn{
+  display:inline-flex; align-items:center; justify-content:center; gap:.45rem;
+  padding:.52rem .95rem;
+  border:1px solid var(--border,#e5e7eb);
+  border-radius:.7rem;
+  text-decoration:none; font-weight:800;
+  background: var(--panel, #fff);
+}
+.btn:hover{ filter:brightness(.95); }
+.btn svg{ width:18px; height:18px; display:block; }
+
+.music-embed{ margin-top:.9rem; }
+.music-embed .yt{ width:100%; aspect-ratio:16/9; border:0; border-radius:12px; }
+.music-embed .sc{ width:100%; border:0; border-radius:12px; }
+.music-embed .sp{ width:100%; height:152px; border:0; border-radius:12px; }
+
+/* モバイル微調整 */
+@media (max-width: 640px){
+  .music-card{ padding: .9rem 1rem; }
+  .music-meta{ font-size: 1.02rem; }
+}
+
+
+/* 本文とUIは可読性重視（日本語はNoto Sans JP） */
+body, .post-content {
+  font-family: "Montserrat","Noto Sans JP",system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial,"Apple Color Emoji","Segoe UI Emoji",sans-serif;
+  line-height: 1.7;
+}
+
+/* サイトロゴ（ヘッダー左上）と Music メニューだけ無機質に */
+.logo a{
+  font-family: "Orbitron","Montserrat",sans-serif !important;;
+  letter-spacing: .5px;
+}
+.nav a[href^="/music/"],
+.nav a[href^="/posts/"],
+.nav a[href^="/research/"],
+.nav a[href^="/bio/"]{
+  font-family: "Orbitron","Montserrat",sans-serif;
+}
+/* === Header avatar next to site name (PaperMod) === */
+/* .logo a の左に円形アイコンを疑似要素で表示（テンプレ改変不要） */
+.logo a{
+  position: relative;
+  padding-left: 2.2rem;           /* アイコンぶんの余白 */
+  display: inline-flex;
+  align-items: center;
+  min-height: 32px;
+}
+.logo a::before{
+  content: "";
+  position: absolute;
+  left: 0; top: 50%;
+  width: 30px; height: 30px;      /* アイコンサイズ */
+  transform: translateY(-50%);
+  background-image: url("/images/avatar.png"); /* ← ここを自分のパスに */
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;              /* 円形トリム */
+  box-shadow: 0 0 0 2px var(--panel, #fff); /* 白縁で視認性UP（任意） */
+}
+:root[data-theme="dark"] .logo a::before{
+  box-shadow: 0 0 0 2px var(--panel, #0f172a);
+}
