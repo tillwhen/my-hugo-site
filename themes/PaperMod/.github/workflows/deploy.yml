@@ -48,9 +48,6 @@ jobs:
 
       - name: Build site
         run: |
-          # CNAME を埋め込みたい場合（独自ドメインに置き換え）:
-          echo "nosaerc.com" > ./static/CNAME
-
           # 本番build（高速＆クリーン）
           hugo --gc --minify
 
